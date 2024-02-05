@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbaddcafb08e34c42b14472c4a012161, type: 3}
+  m_Name: Shotgun_Auto
+  m_EditorClassIdentifier: 
+  weaponName: Auto Shotgun
+  cost: 500
+  prefab: {fileID: 919132149155446097, guid: 61aa8b420c21462428a41c7cc49082c0, type: 3}
+  particles: {fileID: 5107525963712503091, guid: bfdbc5ee8b5d6cd4bb608aeaa6e17167,
+    type: 3}
+  handheldPos: {x: -0.051, y: -0.227, z: 0.554}
+  handheldRot: {x: 0, y: 0, z: 0}
+  handheldScl: {x: 0.1, y: 0.1, z: 0.1}
+  fireLocalPos: {x: 0, y: 3.6, z: 16.29}
+  fireLocalRot: {x: 0, y: 0, z: 0}
+  isMelee: 0
+  isShotgun: 1
+  damage: 0.8
+  shotgunPellets: 10
+  maxSpread: 0.2
+  range: 50
+  timeBtwShots: 0.4
+  isAuto: 1
+  clipSize: 10
+  ammoAmount: 40
+  s_gunshot: {fileID: 8300000, guid: b0bfafaee4346d9428cd0ebbc2712b90, type: 3}
+  s_volume: 0.805

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbaddcafb08e34c42b14472c4a012161, type: 3}
+  m_Name: Assult_Simple
+  m_EditorClassIdentifier: 
+  weaponName: Assult_Simple
+  cost: 100
+  prefab: {fileID: 919132149155446097, guid: 8dc36a368e091ed43be79b1c122e89a6, type: 3}
+  particles: {fileID: 3553161941643581606, guid: 6090117a60483a348afc53a49f5570ec,
+    type: 3}
+  handheldPos: {x: 0, y: 0, z: 0}
+  handheldRot: {x: -0, y: 0, z: 0}
+  handheldScl: {x: 0.45, y: 0.45, z: 0.45}
+  fireLocalPos: {x: -21.49334, y: 2.866665, z: 0}
+  fireLocalRot: {x: 0, y: -90, z: 0}
+  isMelee: 0
+  isShotgun: 0
+  damage: 0.4
+  shotgunPellets: 0
+  maxSpread: 0
+  range: 65
+  timeBtwShots: 0.1
+  isAuto: 1
+  clipSize: 25
+  ammoAmount: 225
+  s_gunshot: {fileID: 8300000, guid: b0bfafaee4346d9428cd0ebbc2712b90, type: 3}
+  s_volume: 0.288

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3bffa778f734f48859ec048bc9e48e, type: 3}
+  m_Name: Stun Grenade
+  m_EditorClassIdentifier: 
+  _name: Stun Grenade
+  damage: 1.5
+  effectRadius: 10
+  stunPercentSpeed: 0.5
+  activationTime: 1
+  stunTime: 5
+  minPushbackForce: 8000
+  maxPushbackForce: 8000
+  prefab: {fileID: 919132149155446097, guid: d4674b61c1964c444bd665dd1462843f, type: 3}
+  size: {x: 0.075, y: 0.075, z: 0.075}
+  particles: {fileID: 6155071441719841506, guid: 9deed2f07bff59341a6455f6d3029bed,
+    type: 3}

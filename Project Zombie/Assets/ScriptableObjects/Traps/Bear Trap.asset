@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae2029febdac694d94b05297923bf3a, type: 3}
+  m_Name: Bear Trap
+  m_EditorClassIdentifier: 
+  _name: Bear Trap
+  damage: 3
+  stunPercentSpeed: 0.1
+  stunTime: 5
+  prefab: {fileID: 919132149155446097, guid: 6c68533639120344bb86465bfaf9b8da, type: 3}
+  size: {x: 0.25, y: 0.25, z: 0.25}
